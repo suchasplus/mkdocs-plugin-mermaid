@@ -9,7 +9,7 @@ A MkDocs plugin that render mermaid graph to mermaid style
 Install the package with pip:
 
 ```bash
-pip install mkdocs-mermaid-plugin
+pip install mkdocs-plugin-mermaid
 ```
 
 ## Usage
