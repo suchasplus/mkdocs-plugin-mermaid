@@ -7,20 +7,19 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-long_description = (
-    "This is a mkdocs plugin that could enable the mermaid graph in the markdown file."
-    "Please follow the instruction in reame to enable this plugin"
+long_description = ( "This is a mkdocs plugin that could enable the mermaid graph in the markdown file."
+    "Please follow the instruction in readme to enable this plugin"
 )
 
 setup(
-    name='mkdocs-mermaid-plugin',
+    name='mkdocs-plugin-mermaid',
     version='0.1.1',
     description='A MkDocs plugin that support mermaid graph in markdown file',
     long_description=long_description,
     keywords='mkdocs python markdown mermaid',
-    url='https://github.com/pugong/mkdocs-mermaid-plugin',
+    url='https://github.com/suchasplus/mkdocs-plugin-mermaid',
     author='pugong',
-    author_email='pugong.liu@gmail.com',
+    author_email='suchasplus@gmail.com',
     license='MIT',
     python_requires='>=2.7',
     install_requires=[
